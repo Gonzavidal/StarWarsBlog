@@ -1,12 +1,10 @@
 import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 import "../../styles/home.css";
+import propTypes from "prop-types";
 
 export const Home = () => (
-	<div className="mt-5">
-		<h1>Characters</h1>
-		<p>
-			<img src={rigoImage} />
-		</p>
+	<div className="text-center mt-5">
+		<span>Characters</span>
 	</div>
 );
